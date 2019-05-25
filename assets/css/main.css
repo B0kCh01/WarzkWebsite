@@ -3939,6 +3939,7 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
+
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
