@@ -3951,8 +3951,11 @@ input, select, textarea {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
 
-	body.is-mobile.landing #page-wrapper {
+	body.is-mobile.landing #page-wrapper .wrapper.style1{
 		background: none;
+		background-color: transparent;
+		color: #c8ece9;
+
 	}
 
 	body.is-mobile.landing #banner,
