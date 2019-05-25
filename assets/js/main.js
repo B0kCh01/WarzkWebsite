@@ -4,8 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 var video = document.getElementById("myVideo"); 
-    //this did the trick
-    video.loop = false; 
     video.addEventListener('ended', function() { 
     	video.currentTime=0.1; video.play(); 
     }, false);
