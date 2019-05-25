@@ -3,12 +3,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-var video = document.getElementById("myVideo"); 
-    video.addEventListener('ended', function() { 
-    	video.currentTime=0.1; video.play(); 
-    }, false);
-    video.play();
-
 (function($) {
 
 	var	$window = $(window),
